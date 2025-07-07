@@ -1,9 +1,9 @@
 ![](Pasted%20image%2020250707115647.png)
 ![](Pasted%20image%2020250707130821.png)
 # Working principle
-This 3-stage ring oscillator works by taking advantage of the second Barkhausen's criterion - making the phase around the loop 360$\degree$.
-The amplifier stage is a MOSFET in a common source configuration. This offers a 180$\degree$ phase shift. Then the RC circuit in combination provides a certain phase shift that after 3 stages of 180$\degree$ inversions, offers a total 180$\degree$ phase shift so that the total phase shift becomes 360$\degree$.
-Thus we see that the phase shift offered by each RC circuit must be 60$\degree$. This implies that the operating frequency will be $\sqrt{3}$ times the pole frequency.
+This 3-stage ring oscillator works by taking advantage of the second Barkhausen's criterion - making the phase around the loop 360°.
+The amplifier stage is a MOSFET in a common source configuration. This offers a 180° phase shift. Then the RC circuit in combination provides a certain phase shift that after 3 stages of 180° inversions, offers a total 180° phase shift so that the total phase shift becomes 360°.
+Thus we see that the phase shift offered by each RC circuit must be 60°. This implies that the operating frequency will be $\sqrt{3}$ times the pole frequency.
 At a frequency $\sqrt{3}$ times the pole frequency, the signal will experience a diminishing of 50%.
 Thus we require the minimum gain of each MOSFET CS amplifier to be 2 so as to satisfy the first Barkhausen's criterion.
 # Frequency
